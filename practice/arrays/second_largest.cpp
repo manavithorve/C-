@@ -6,7 +6,7 @@ int findSecondLargest(int a[], int n)
     int largest = a[0];
     int second_largest = a[1];
     bool flag = false;
-    for (int i = 2; i < n; i++)
+    for (int i = 1; i < n; i++)
     {
         if (a[i] == largest)
         {
