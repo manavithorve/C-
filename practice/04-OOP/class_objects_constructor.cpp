@@ -31,6 +31,7 @@ public:
         cout << "Roll No: " << rollNo << endl;
         cout << "Total Marks: " << totalMarks << endl;
     }
+    ~Student(){}
 };
 
 int main()
@@ -42,6 +43,6 @@ int main()
     Student s2(10, "John", 79);
     s1.displayData();
     s2.displayData();
-
+    
     return 0;
 }
