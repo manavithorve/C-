@@ -31,7 +31,7 @@ public:
         cout << "Roll No: " << rollNo << endl;
         cout << "Total Marks: " << totalMarks << endl;
     }
-    ~Student(){}
+    ~Student(){} //destructor to deallocate memory allocated to object
 };
 
 int main()
